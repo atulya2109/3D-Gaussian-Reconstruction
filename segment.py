@@ -1,0 +1,1 @@
+from sam2.sam2_image_predictor import SAM2ImagePredictor

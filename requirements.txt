@@ -1,0 +1,32 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+pytorch3d>=0.7.0
+
+# Image processing and segmentation
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Perceptual loss
+lpips>=0.1.4
+
+# Training utilities
+tqdm>=4.65.0
+
+# SMPL body model
+# Note: SMPLer model files need to be obtained separately
+
+# Segment Anything Model 2 (SAM2)
+# Note: Install from Meta's official repository
+# pip install git+https://github.com/facebookresearch/segment-anything-2.git
+
+# 3D Gaussian Rasterization
+# Note: The diff-gaussian-rasterization submodule needs to be compiled separately
+# See submodules/diff-gaussian-rasterization/README.md for installation instructions
+
+# Optional: For notebook support
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Optional: Visualization
+matplotlib>=3.7.0
